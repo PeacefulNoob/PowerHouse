@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('powerhouse');
-});
+Route::get('/',"MailSendController@create");
+
+Route::post('powerhouse',[
+    'uses' => 'MailSendController@mailsend',
+    'as' => 'contact.store'
+]);

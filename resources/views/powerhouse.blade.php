@@ -34,7 +34,7 @@
           <div class="email pull-left"><a href="mailto:Fetness@yourdomain.com"><i class="fa fa-envelope-o"></i> Fitness@yourdomain.com</a></div>
         </div>
         <div class="top-right pull-right clearfix">
-          <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> <a class="fa fa-google-plus" href="#"></a></div>
+          <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a></div>
         </div>
       </div>
     </div>
@@ -50,12 +50,11 @@
             </div>
             <div class="navbar-collapse collapse clearfix">
               <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
-                <li class="nav-link home current"><a href="#home" class="js-scroll-trigger">HOME</a> </li>
-                <li class="nav-link"><a href="#aboutus" class="js-scroll-trigger">ABOUT US</a> </li>
-                <li class="nav-link"><a href="#course" class="js-scroll-trigger">COURSES</a></li>
-                <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">SCHEDULE</a></li>
-                <li class="nav-link"><a href="#blog" class="js-scroll-trigger">BLOG</a></li>
-                <li class="nav-link"><a href="#contact" class="js-scroll-trigger">CONTACT US</a></li>
+                <li class="nav-link home current"><a href="#home" class="js-scroll-trigger">POCETNA</a> </li>
+                <li class="nav-link"><a href="#aboutus" class="js-scroll-trigger">O NAMA</a> </li>
+                <li class="nav-link"><a href="#course" class="js-scroll-trigger">PROGRAMI</a></li>
+                <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">RASPORED</a></li>
+                <li class="nav-link"><a href="#contact" class="js-scroll-trigger">KONTAKT</a></li>
                 <li class="search-btn" onclick="openSearch()"><a><i class="fa fa-search"></i></a></li>
               </ul>
               <div class="clearfix"></div>
@@ -75,53 +74,171 @@
   </header>
   <!-- header end --> 
   
-  <!-- Carousel start -->
+  <!-- Modalni start -->
+  <div class="modal" id="myModal1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header">
+        <h2 class="title"><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTAR</span></h2><p>Power house fitnes je novootvoreni centar u Podgorici koji ima za cilj da pruži vježbačima sve ono što im je potrebno u postizanju zacrtanih ciljeva u fitnesu. Ove ciljeve ćemo se potruditi da postignemo kroz dvije vrste usluga koje nudimo, a to su:</p>
+
+          <button type="button" id="close1" class="close" data-dismiss="modal">×</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+           <!--Accordion wrapper-->
+
+          
+<div class="mojDiv ">
+        <h4 class="title">      Personalni treninzi        </h4>
+    
+        <div class="panel-body">
+        Personalni treninzi su namijenjeni pojedincima, prilagođeni u cjelosti vama, vašem organizmu i u vrijeme koje odgovara upravo vama. Prednost personalnih treninga je stoprocentno prisustvo trenera sa vježbačima koji u svakom trenutku kontrolišu vaš pokret, intezitet i rad na treningu. Samim tim, još jedna od prednosti ovog načina treniranja je direktna komunikacija sa trenerom što vam omogućava da u realnom vremenu objasnite svom instruktoru šta osjećate prilikom određenih pokreta, da li se javlja neki bol, koliki je njegov intezitet i slično. 
+Najčešći razlozi personalnih treninga kod vježbača iz dosadašnjeg iskustva su:
+- bolovi u leđima;
+- skidanje kilaže;
+- priprema profesionalnih sportista;
+- održavanje zdravlja, snage i energije;
+- oporavak od povrede.
+ </div>
+ </div>
+<div class="divMoj ">
+        <h4 class="title"> Grupni treninzi   </h4>
+        <div class="panel-body">
+        Grupni treninzi su namijenjeni za sve one vježbače koji vole kolektiv, takmičenje, druženje, pozitivnu energiju i zabavu.
+Naš prostor će biti opremljen najsavremenijom opremom, potpuno novim spravama sa mnogo moćnim audio ozvučenjem i neon rasvjetom. Samim tim, naš centar će se isticati kao najmoderniji fitnes centar u Podgorici, a tome u prilog ne govori samo oprema koju posjedujemo, već i treninzi koje smo za vas pripremili po poslednjem trendu u čitavom svijetu:
+        </div>
+       
+        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+            
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+        <h4 class="panel-title green_text" >
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         
+                Body Combat 
+            </a>
+        </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+        <div class="panel-body">
+        Body Combat je energičan trening koji kombinuje pokrete više borilačkih veština, koji će vam pomoći da budete fit, brzi i snažni. Nakon treninga Body Combata osećate se osnaženo i moćno.
+Body Combat karakteriše kombinacija nekih od najsnažnijih pokreta iz nekoliko različitih borilačkih vještina. Motivišući instruktori i nevjerovatna muzika su ono što vas gura da ostvarite svoj pun potencijal. Trening se zasniva na postulatima takozvanog “Cardio Peak” Treninga, koji podrazumijeva održavanje srčane frekvencije u aerobnoj zoni (između 60 i 80 procenata od maksimalnog broja otkucaja srca) u kombinaciji sa intervalima u kojima dolazite do submaksimalnog intenziteta (od 85 do 90% od maksimuma). Ova specifična mješavina nižeg i višeg intenziteta gradi kardio izdržljivost, a takođe pokreće efekat sagorijevanja masnoća povezanih sa intervalnim treningom visokog intenziteta.
+Možete očekivati da ćete sagorijeti oko čak 700 kalorija tokom 55-minutnog treninga Body Combat-a. Takođe ćete izgraditi kardio izdržljivost, oblikovati i zategnuti ruke, leđa i ramena, trenirati noge i ojačati core (trup).
+Body Combat koristi elemente karatea, tekvondoa, boksa, muai taia, kapoere i kung fua. Ali ne brinite, ne treba vam nikakvo iskustvo borilačkih vještina – tokom zagrijavanja instruktori će vam pokazati sve pokrete. Jačaćete kroz razne kikove, aperkate i krošee. Takođe se rade vježbe poput iskoraka, čučnjeva i sklekova.
+Body Combat ne samo da je ubica kalorija, već je i vežba za celo telo koja gradi snagu gornjeg i donjeg dela tela i pruža izvanredan trening core-a. Istraživanja pokazuju da, u poređenju sa uobičajenim vježbama za stomak, pokreti kao što su frontalni kikovi nogama i brzi naizmenični direkti su superiorniji, a efekat na core koji dobijete od ovog treninga ekvivalentan je 1700 trbušnjaka.
+U Body Combat-u postoje opcije koje odgovaraju svim nivoima kondicije, a instruktor je tu da vas obuči svim pokretima. Kada tek počinjete, dovoljno je i da ostanete na pola treninga, pa da kasnije vremenom povećavate intenzitet. Nekad je potrebno da prođe i nekoliko treninga da zaista osetite Combat, ali onda se vrlo brzo „navučete“.
+Za odlične rezultate preporučujemo ovaj trening dva do tri puta nedeljno. Dodajte ovome i neki trening snage poput Power Up-a i fleksibilnosti, poput Pilatesa ili Body Balance-a i oblikovaćete i tonirati svoje tijelo za kratko vrijeme.
+
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFour">
+        <h4 class="panel-title green_text">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+
+                Power Up 
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+        <div class="panel-body">
+        Trening sa opterećenjem koji povećava snagu izdržljivost i brzinu. Poboljšava fleksibilnost i obim pokreta, jača snagu kardiovaskularnog sistema. Ovaj trening preporučujemo za sve one koji žele da rade na svojoj mišićnoj masi, da povećaju snagu i izdržljivost svojih mišića. Izuzetan efekat ima u kombinaciji sa Conditioning i Body Combat Power House treninzima.
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingFive">
+        <h4 class="panel-title green_text">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+   
+                Conditioning 
+            </a>
+        </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+        <div class="panel-body">
+        Trening fokusiran na vašu kondiciju.(iskucaće jelena)
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSix">
+        <h4 class="panel-title green_text">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+   
+                Glut & Core  
+            </a>
+        </h4>
+    </div>
+    <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+        <div class="panel-body">
+        Trening snage gdje sa svojom težinom pogađate mišiće koji oblikuju vašu figuru, vaš core (stomak), zadnjicu, leđa - prosto sve ono što vašu građu čini savršenom.
+Ovaj trening obuhvata sve osnovne ljudske pokrete i kojim ćete moći istopiti masne naslage i povećati mišićnu masu. 
+Poseban akcenat stavlja se na stomak i zadnjicu. Radeći vježbe za stomak na pravi način i uz malu korekciju u ishrani ne samo da ćete izgledati dobro nego će vam i leđa biti zahvalna. Takođe ćemo ojačati i naučiti vas kako da koristite mišiće zadnjice. Program mogu da rade svi uzrasti od 16.godina pa nadalje.
+Ovaj trening je idealan za oblikovanje figure vašeg tijela. Za fenomenalne rezultate, Glut & Core trening preporučujemo dva do tri puta nedeljno uz kombinaciju sa Pilatesom ili Body Combatom.
+        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingSeven">
+        <h4 class="panel-title green_text">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseThree">
+    
+                Pilates  
+            </a>
+        </h4>
+    </div>
+    <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+        <div class="panel-body">
+        Pilates značajno mijenja izgled vašeg tijela, kako se ono osjeća i ponaša. Gradi snagu bez dodatnog napora, stvarajući vitko tijelo sa zategnutim butinama i ravnim stomakom. On uči tijelo dobrom držanju i jednostavnim, gracioznim pokretima. Pilates poboljšava fleksibilnost, snagu i ekonomičnost kretanja. On čak može pomoći u ublažavanju bola u ledjima. Profesionalni plesači koriste dobrobiti Pilatesa već decenijama. Vrhunski atletičari ga koriste za snagu, fleksibilnost i prevenciju povreda. Holivudske zvezde i supermodeli ga koriste da bi održavale dobar izgled. Čudo? Ne baš…Razvijen iz, prije svega, tehnika za rehabilitaciju, Pilates je bezbijedan, suptilan sistem vježbi pri čemu se koriste strunjača ili odgovarajuća oprema, koji će vam pomoći da izgledate i da se osjećate najbolje što je moguće. Bez obzira na vaše godine ili kondiciju, Pilates će vam odgovarati.        </div>
+    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingEight">
+        <h4 class="panel-title green_text">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseThree">
+                Cardio Kingz 
+            </a>
+        </h4>
+    </div>
+    <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+        <div class="panel-body">
+        Trening fokusiran na vašu kondiciju.(iskucaće jelena)
+        </div>
+    </div>
+</div>
+</div><!-- panel-group -->
+</div>
+</div>
+
+</div>
+<!-- Accordion wrapper -->
+        </div>
+        
+        
+                    </div>
+      </div>
+    </div>
+  <!-- Modalni end -->
+  <!-- Crousel start -->
   <section class="main-slider slide-wrapper" id="home">
     <div id="myCarousel" class="carousel slide"> 
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="first active"></li>
-        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
-        <li data-target="#myCarousel" data-slide-to="2" class="last"></li>
-      </ol>
-            <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item item1 active">
-          <div class="fill" style=" background-image:url(/images/b1.jpg);">
-            <div class="inner-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Fitness Complex Gym</h2>
-                    <h3 class="wow fadeInUp animated title_animate">For AtHLetic Women</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right hvr-icon" aria-hidden="true"></i></a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="item item1">
-          <div class="fill" style=" background-image:url(/images/b2.jpg);">
-            <div class="inner-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Fitness Complex Gym</h2>
-                    <h3 class="wow fadeInUp animated title_animate">For AtHLetic Women</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div class="item item1">
           <div class="fill" style=" background-image:url(/images/b3.jpg)">
             <div class="inner-content">
               <div class="container">
                 <div class="row">
                   <div class="col-md-7 iner_info">
-                    <h2 class="wow fadeInUp animated img_animate">Fitness Complex Gym</h2>
-                    <h3 class="wow fadeInUp animated title_animate">For AtHLetic Women</h3>
+                    <h2 class="wow fadeInUp animated img_animate">Power House fitness</h2>
+                    <h3 class="wow fadeInUp animated title_animate">Everyday's champions!</h3>
                     <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
                 </div>
               </div>
@@ -148,13 +265,14 @@
                 <figure> <img src="/images/s1.jpg" alt="gym-fitness"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>OPENING HOURS</h2>
+                    <h2>Radno vrijeme</h2>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                     <br>
-                    <H3> MON TO SAT </H3>
-                    <h4>8:30AM - 6:00PM </h4>
-                    <H3> SUNDAY </H3>
-                    <h4>8:30AM - 4:00PM </h4>
+                    <H3> PON-SUB  </H3>
+                    <h4>07:00h - 13:00h  &  14:00h - 21:00h </h4>
+                   
+                    <H3> NEDELJA </H3>
+                    <h4>Neophodan odmor  </h4>
                   </div>
                 </div>
               </div>
@@ -164,22 +282,22 @@
                 <figure> <img src="/images/s2.jpg" alt="dance"> </figure>
                 <div class="content">
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <h2>OUR SERVICES</h2>
+                    <h2>Naše usluge </h2>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                     <br>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/si1.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>PERSONAL TRAINING </h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                      <h5>Personalni treninzi</h5>
+                      <p>Program koji je vama namijenjen i u vrijeme koje vama odgovara.</p>
                     </div>
                   </div>
                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
                     <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/si2.png" alt=""> </div>
                     <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                      <h5>FAT LOSS PROGRAM </h5>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                      <h5>Grupni treninzi </h5>
+                      <p>Body Combat, Power Up, Boxing, Conditioning, Pilates, Glut & Core, Cardio Kingz. </p>
                     </div>
                   </div>
                 </div>
@@ -204,12 +322,15 @@
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ainfo_sec">
               <div class="row">
                 <div class="col-sm-12">
-                  <h2 class="title"><b> about</b><span class="green_text"> gym</span><span class="light_text">fit</span></h2>
+                  <h2 class="title"><b> O</b><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTAR</span></h2>
                 </div>
                 <div class="col-sm-12">
-                  <p>Cras faucibus in nunc sed volutpat. Duis ac elementum velit, vel ornare lacus. Phasellus eget tincidunt odio. </p>
-                  <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut a convallis nibh. Sed laoreet lacus eu interdum euismod. Fusce condimentum, tortor in fringilla sollicitudin, eros dui blandit risus, sit amet dignissim arcu urna eget nibh. Vestibulum ultrices, libero nec ultrices fermentu.</p>
-                  <a href="about.html" class="primary-btn"> Read More</a> </div>
+                  <p>Power House fitnes je kuća koja se zalaže za razvoj uspješne fitnes zajednice za ciljem da vas podrži bez obzira na vaše ciljeve u fitnesu. Nalazimo se u ulici Crnogorskih Serdara 17.</p>
+                  <p> U Power House fitnesu treninge vode licencirani treneri sa mnogo iskustva, koji će u svakom trenutku znati da vam daju pravi savjet u odnosu na vaše nedoumice, pitanja ili probleme.
+Naš centar pruža uslkuge individualnih i grupnih treninga. 
+</p>
+<button type="button" class="primary-btn" data-toggle="modal" data-target="#myModal1" id="btn1">Detaljnije</button>
+                
               </div>
             </div>
           </div>
@@ -223,13 +344,13 @@
   <section class="home_course_sec" id="course">
     <div class="container">
       <div class="row">
-        <h2 class="title"><b> our coueses</b></h2>
+        <h2 class="title"><b>Power House programi treninga</b></h2>
         <div class="coueses-container filter-list clearfixcol-xs-12 col-sm-12 col-md-12 col-lg-12">
           <article class="coueses-box col-xs-12 col-sm-6 col-md-4 col-lg-4">
             <figure class="image"><img src="/images/c1.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>kettlebell</h4>
+                <h4>Glut & Core </h4>
               </div>
             </div>
           </article>
@@ -237,7 +358,7 @@
             <figure class="image"><img src="/images/c2.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>Conjugate Methods</h4>
+                <h4>Power Up </h4>
               </div>
             </div>
           </article>
@@ -245,7 +366,7 @@
             <figure class="image"><img src="/images/c3.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>kettlebell</h4>
+                <h4>Boxing </h4>
               </div>
             </div>
           </article>
@@ -253,7 +374,7 @@
             <figure class="image"><img src="/images/c4.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>Weightlifting</h4>
+                <h4>Boxing </h4>
               </div>
             </div>
           </article>
@@ -261,7 +382,7 @@
             <figure class="image"><img src="/images/c5.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>Advanced Gymnastic</h4>
+                <h4>Cardio Kingz </h4>
               </div>
             </div>
           </article>
@@ -269,7 +390,7 @@
             <figure class="image"><img src="/images/c6.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>Striking</h4>
+                <h4>Body Combat </h4>
               </div>
             </div>
           </article>
@@ -294,7 +415,7 @@
   <section class="team_sec">
     <div class="container">
       <div class="col-md-12">
-        <h2 class="title"><b> Our TRainers</b></h2>
+        <h2 class="title"><b> POWER HOUSE Treneri</b></h2>
       </div>
       <div class="col-md-12">
         <div class="carousel">
@@ -302,15 +423,15 @@
             <div class="item">
               <div class="team_box"><a href="#"><img src="/images/trainers-1.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
+                  <div class="text">  
+                             <p>Akademija FISAF Belgrade - International fitness education center</br>LesMills Body Combat - licenca</br>TRX Qualified</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
                   </div>
                 </div>
                 <div class="text-content hvr-bounce-to-bottom">
                   <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
+                    <h4>Jelena Kujović </h4>
+                    <h5>POWER HOUSE Treneri </h5>
                   </div>
                 </div>
               </div>
@@ -319,14 +440,14 @@
               <div class="team_box"><a href="#"><img src="/images/trainers-2.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
+                    <p>Profesionalni MMA borac </br>Kick Boxing</br> Muay Thai & Boxing</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
                   </div>
                 </div>
                 <div class="text-content hvr-bounce-to-bottom">
                   <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
+                    <h4>Jovan Todorović </h4>
+                    <h5>POWER HOUSE Treneri</h5>
                   </div>
                 </div>
               </div>
@@ -335,14 +456,18 @@
               <div class="team_box"><a href="#"><img src="/images/trainers-3.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
+                    <p><span class="green_text">  Licence:</span></br>
+Body Combat,Body pump</br><span class="green_text"> Struka:</span></br>Magistar Sporta (Fakultet"Univerzitet Union"Novi Beograd)</br><span class="green_text"> Treninzi u POWER HOUSE-u:</span></br>Body Combat
+Power Up
+<span class="green_text">Specijalizovan/a:</span></br>
+Body Combat, Strenght, Weight loss</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
                   </div>
                 </div>
                 <div class="text-content hvr-bounce-to-bottom">
                   <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
+                    <h4>Vanja Prelevic</h4>
+                    <h5>POWER HOUSE Treneri</h5>
                   </div>
                 </div>
               </div>
@@ -351,50 +476,26 @@
               <div class="team_box"><a href="#"><img src="/images/trainers-4.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
                   <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
+                    <p><span class="green_text">  Licence:</span></br>
+Certified Functional Trainer Level 1</br>
+Treninzi u POWER HOUSE-u</br>
+Glute and core</br>
+<span class="green_text">Specijalizovan/a:</span></br>
+Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjice i stomaka
+</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
                   </div>
                 </div>
                 <div class="text-content hvr-bounce-to-bottom">
                   <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
+                    <h4>Marija Žarić</h4>
+                    <h5>POWER HOUSE Treneri</h5>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="/images/trainers-5.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="team_box"><a href="#"><img src="/images/trainers-6.png" class="img-responsive" alt=""></a>
-                <div class="overlay">
-                  <div class="text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ultrices metus nec sapien vestibulum.</p>
-                    <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
-                  </div>
-                </div>
-                <div class="text-content hvr-bounce-to-bottom">
-                  <div class="text">
-                    <h4>RACHEL ADAM</h4>
-                    <h5>GYM TRAINER </h5>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
+
           </div>
         </div>
       </div>
@@ -409,79 +510,79 @@
         <h2 class="title"><b> Our timetable</b></h2>
         <div class="row">
         <ul class="filter-tabs clearfix anim-3-all wow fadeInUp animated day_tabs" id="filter-tabs" data-wow-delay="0ms" data-wow-duration="1000ms">
-          <li class="filter active" data-filter=".Monday"  onclick="filterSelection('Monday')"><span class="btn-txt">Monday</span></li>
-          <li class="filter" data-filter=".tuesday" onclick="filterSelection('tuesday')"><span class="btn-txt">tuesday</span></li>
-          <li class="filter" data-filter=".Wednesday" onclick="filterSelection('Wednesday')"><span class="btn-txt">Wednesday</span></li>
-          <li class="filter" data-filter=".Thursday" onclick="filterSelection('Thursday')"><span class="btn-txt">Thursday</span></li>
-          <li class="filter" data-filter=".Friday" onclick="filterSelection('Friday')"><span class="btn-txt">Friday</span></li>
-          <li class="filter" data-filter=".Saturday" onclick="filterSelection('Saturday')"><span class="btn-txt">Saturday</span></li>
-          <li class="filter" data-filter=".sunday" onclick="filterSelection('sunday')"><span class="btn-txt">sunday</span></li>
+          <li class="filter active" data-filter=".Monday"  onclick="filterSelection('Monday')"><span class="btn-txt">Ponedeljak</span></li>
+          <li class="filter" data-filter=".tuesday" onclick="filterSelection('tuesday')"><span class="btn-txt">Utorak</span></li>
+          <li class="filter" data-filter=".Wednesday" onclick="filterSelection('Wednesday')"><span class="btn-txt">Srijeda</span></li>
+          <li class="filter" data-filter=".Thursday" onclick="filterSelection('Thursday')"><span class="btn-txt">Četvrtak</span></li>
+          <li class="filter" data-filter=".Friday" onclick="filterSelection('Friday')"><span class="btn-txt">Petak</span></li>
+          <li class="filter" data-filter=".Saturday" onclick="filterSelection('Saturday')"><span class="btn-txt">Subota</span></li>
+          <li class="filter" data-filter=".sunday" onclick="filterSelection('sunday')"><span class="btn-txt">Nedelja</span></li>
         </ul>
         <select class="select filter-tabs clearfix wow fadeInUp animated select_day" onchange="filterSelection(this.value)" data-wow-delay="0ms" data-wow-duration="1000ms">
-          <option  value="Monday">Monday</option>
-          <option  value="tuesday">tuesday</option>
-          <option  value="Wednesday">Wednesday</option>
-          <option  value="Thursday">Thursday</option>
-          <option  value="Friday">Friday</option>
-          <option  value="Saturday">Saturday</option>
-          <option  value="sunday">sunday</option>
+          <option  value="Monday">Ponedeljak</option>
+          <option  value="tuesday">Utorak</option>
+          <option  value="Wednesday">Srijeda</option>
+          <option  value="Thursday">Četvrtak</option>
+          <option  value="Friday">Petak</option>
+          <option  value="Saturday">Subota</option>
+          <option  value="sunday">Nedelja</option>
         </select>
         <div class="projects-container filter-list clearfix wow fadeInUp animated col-sm-12 col-xs-12 col-md-12" data-wow-delay="300ms" data-wow-duration="1000ms">
           <div class="row">
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Saturday text-content"> <img class="img-responsive" src="/images/size.png" alt=""> <br>
-                <span class="time"> 06AM-08AM </span>
-                <h4> Weight Loose </h4>
-                <p> Rachel Adam </p>
+              <div class="Friday Monday Wednesday text-content"> <img class="img-responsive" src="/images/size.png" alt=""> <br>
+                <span class="time"> 08:30-09:30 </span>
+                <h4> Glut & Core  </h4>
+                <p> MZ </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Thursday sunday tuesday text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
-                <span class="time"> 08AM-10AM </span>
-                <h4> Cardio </h4>
-                <p> Rachel Adam </p>
+              <div class="friday text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 10:30-11:30 </span>
+                <h4> Power Up   </h4>
+                <p> JK </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Monday mix_all Friday text-content"> <img class="img-responsive" src="/images/yoga.png" alt=""> <br>
-                <span class="time"> 10AM-01PM </span>
-                <h4> yoga </h4>
-                <p> Lefew D. Loee </p>
+              <div class="monday Wednesday friday text-content"> <img class="img-responsive" src="/images/yoga.png" alt=""> <br>
+                <span class="time"> 18:30-19:30 </span>
+                <h4> Boxing  </h4>
+                <p> JT </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out right-line_hide">
               <div class="text-content Monday mix_all  tuesday Wednesday sundays "> <img class="img-responsive" src="/images/body.png" alt=""> <br>
-                <span class="time"> 01PM-02PM </span>
-                <h4> Fitness </h4>
-                <p> Rachel Adam </p>
+                <span class="time"> 10:30-11:30 </span>
+                <h4>Power Up </h4>
+                <p> JK </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class=" Monday mix_all  tuesday text-content"> <img class="img-responsive" src="/images/box.png" alt=""> <br>
-                <span class="time"> 04PM-06PM </span>
-                <h4> Karate </h4>
-                <p> Keaf Shen </p>
+              <div class=" tuesday Thursday text-content"> <img class="img-responsive" src="/images/box.png" alt=""> <br>
+                <span class="time">  09:10-10:10 </span>
+                <h4> Conditioning </h4>
+                <p> JK </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class=" Monday mix_all Thursday Saturday Friday tuesday text-content"> <img class="img-responsive" src="/images/boxing-gloves.png" alt=""> <br>
-                <span class="time"> 06PM-07PM </span>
-                <h4> Boxing </h4>
-                <p> Rachel Adam </p>
+              <div class="Thursday tuesday  text-content"> <img class="img-responsive" src="/images/boxing-gloves.png" alt=""> <br>
+                <span class="time"> 12:00-13:00 </span>
+                <h4> Cardio Kingz </h4>
+                <p> JT </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class="Monday mix_all Thursday Saturday sundays text-content"> <img class="img-responsive" src="/images/rope.png" alt=""> <br>
-                <span class="time"> 07PM-08PM </span>
-                <h4> Aerobics & Skipping </h4>
-                <p> Lefew D. Loee </p>
+              <div class="Thursday tuesday text-content"> <img class="img-responsive" src="/images/rope.png" alt=""> <br>
+                <span class="time"> 19:00-20:00 </span>
+                <h4> Body Combat </h4>
+                <p> JK </p>
               </div>
             </article>
             <article class="project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out right-line_hide bottomrow">
-              <div class="Monday mix_all Saturday Friday Wednesday tuesday sundays text-content show"> <img class="img-responsive" src="/images/biceps.png" alt=""> <br>
-                <span class="time"> 08PM-09PM </span>
-                <h4>Body Building </h4>
-                <p> Rachel Adam </p>
+              <div class="Thursday tuesday Saturday text-content show"> <img class="img-responsive" src="/images/biceps.png" alt=""> <br>
+                <span class="time"> 20:10-21:10 </span>
+                <h4>Pilates</h4>
+               
               </div>
             </article>
           </div>
@@ -505,52 +606,7 @@
   </div>
   <!--Gallery end --> 
   
-  <!--Blog start -->
-  <section class="blog_sec" id="blog">
-    <div class="container">
-      <div class="row">
-        <h2 class="title"><b> Our blog</b></h2>
-        <div class="carousel">
-          <div class="owl-carousel owl-theme ss_carousel col-md-12 col-xs-12 col-sm-12" id="slider3">
-            <div class="item ">
-              <div class="card">
-                <div class="b_date"><img class="img-responsive" src="/images/blog_date.png" alt=""> <span>June<br>
-                  09</span></div>
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="/images/blog1.jpg" alt=""></a></div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item ">
-              <div class="card">
-                <div class="b_date"> <img class="img-responsive" src="/images/blog_date.png" alt=""> <span>June<br>
-                  10</span> </div>
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="/images/blog2.jpg" alt=""></a></div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="card">
-                <div class="blog_img"><a href="blog_detail.html"><img class="img-responsive" src="/images/blog3.jpg" alt=""></a></div>
-                <div class="b_date"> <img class="img-responsive" src="/images/blog_date.png" alt=""> <span>June<br>
-                  20</span> </div>
-                <div class="blog_info">
-                  <h4><a href="blog_detail.html">Lorem ipsum dolor sit amet</a></h4>
-                  <p>consectetur adipiscing elit. Mauris et luctus lorem, efficitur placerat sem. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Blog end --> 
+
   <!--Contact start -->
   <section id="contact" class="home_contact_sec">
     <div class="site-quick-support center-text site-dark-section-a">
@@ -559,8 +615,9 @@
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
               <h2>Get In touch</h2>
-              <form id="contactForm" class="site-contact-form">
-                <div class="col-lg-10 col-sm-12">
+              <form  action="{{route('contact.store')}}" method="post" class="site-contact-form">
+             {{ csrf_field() }}
+              <div class="col-lg-10 col-sm-12">
                   <div class="row">
                     <input type="text" name="name" placeholder="Name" required>
                   </div>
@@ -592,8 +649,7 @@
           <div class="col-sm-12 col-md-12 col-lg-12 no-padding hmap">
             <div class="right">
               <div class="site-google-map" id="site-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2945.271556591232!2d18.759313314962796!3d42.421954339184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134c33003f3efcfb%3A0x713eda3ede323413!2sFiluro!5e0!3m2!1sen!2s!4v1584003668068!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>        </div>
-      </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.7469047695636!2d19.254308815458586!3d42.43312187918205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb3fab1b431f%3A0xc237fdaee1c7ea00!2s17%20Crnogorskih%20Serdara%2C%20Podgorica!5e0!3m2!1sen!2s!4v1584017818848!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>      </div>
     </div>
   </section>
   <!--Contact end --> 
@@ -604,41 +660,26 @@
     <div class="container">
       <div class="footer-widget-area clearfix">
         <div class="footer-widget about-widget col-md-3 col-sm-6 col-xs-12"> <a href="#">
-          <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
-          </a>
+<img src="/images/logobeli.svg" />          </a>
           <div class="widget-about">
-            <p>ligula sed porta cursus, lectus ligula interdum tortor, vitae tempor leo eros lobortis ante. Integer semper, metus in tincidunt euismod.</p>
-            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a> <a class="fa fa-instagram" href="#"></a> <a class="fa fa-google-plus" href="#"></a></div>
+            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a> <a class="fa fa-instagram" href="#"></a> </div>
           </div>
         </div>
         <div class="footer-widget quick-links col-md-2 col-sm-6 col-xs-12 ">
           <h4>LINKS</h4>
           <div class="widget-link">
             <ul>
-              <li> <a href="#home">Home</a></li>
-              <li> <a href="#aboutus">About Us</a></li>
-              <li> <a href="#course">Coueses</a></li>
-              <li> <a href="#timetable">Schedule</a></li>
-              <li> <a href="#blog">Blog</a></li>
-              <li> <a href="#contact">Contact Us</a></li>
+              <li> <a href="#home">Pocetna</a></li>
+              <li> <a href="#aboutus">O nama</a></li>
+              <li> <a href="#course">Programi</a></li>
+              <li> <a href="#timetable">Raspored</a></li>
+              <li> <a href="#contact">Kontakt</a></li>
             </ul>
           </div>
         </div>
-        <div class="footer-widget latest-work col-md-4 col-sm-6 col-xs-12 ">
-          <h4>Instagram</h4>
-          <div class="widget-post">
-            <div class="clearfix">
-              <figure class="image"><a href="#"><img src="/images/gallery_1.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="/images/gallery_2.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="/images/gallery_3.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="/images/gallery_4.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="/images/gallery_5.png" alt=""></a></figure>
-              <figure class="image"><a href="#"><img src="/images/gallery_1.png" alt=""></a></figure>
-            </div>
-          </div>
-        </div>
+       
         <div class="footer-widget address col-md-3 col-sm-6 col-xs-12">
-          <h4>Contact us</h4>
+          <h4>Kontakt</h4>
           <div class="widget-content">
             <div class="address_box"> <i class="fa fa-phone"></i>
               <p>123-1234-123</p>
@@ -647,16 +688,23 @@
               <p>Fitness@domain.com</p>
             </div>
             <div class="address_box1"> <i class="fa fa-map-marker"></i>
-              <p>1011Santa Monica <br>
-                boulevard Los Angeles</p>
+              <p>Crnogorskih Serdara 17<br>
+               Podgorica, Crna Gora 81000
+</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="footer-bottom">
-      <div class="auto-container text-center">© 2018 <a href="#">GYMFIT.</a> With All rights reserved.</div>
-    </div>
+    <div class="footer-copyright py-3 copyright" style="
+            padding-left: 40px;
+               display: flex;
+    color: white;">
+       <p style="
+    margin-right: 20px;
+">© 2020 QQRIQ™ </p>
+     
+        </div>
   </footer>
   <!--Footer end --> 
 </div>

@@ -324,3 +324,9 @@ $('#contactForm').submit(function() {
 $(".navbar-nav a").on('click', function () {
 	$(".navbar-collapse").removeClass("in");
 });
+
+
+//MODALNI
+$('#myModal').on('shown.bs.modal', function () {
+  $('#btn1').trigger('focus')
+})
