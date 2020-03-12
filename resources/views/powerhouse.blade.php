@@ -222,11 +222,9 @@ Ovaj trening je idealan za oblikovanje figure vašeg tijela. Za fenomenalne rezu
 </div>
 <!-- Accordion wrapper -->
         </div>
-        
-        
-                    </div>
+       </div>
       </div>
-    </div>
+    
   <!-- Modalni end -->
   <!-- Crousel start -->
   <section class="main-slider slide-wrapper" id="home">
@@ -239,18 +237,15 @@ Ovaj trening je idealan za oblikovanje figure vašeg tijela. Za fenomenalne rezu
                   <div class="col-md-7 iner_info">
                     <h2 class="wow fadeInUp animated img_animate">Power House fitness</h2>
                     <h3 class="wow fadeInUp animated title_animate">Everyday's champions!</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> </div>
+                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a> 
+                    </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <i class="fa fa-angle-up"></i> 
-      <!-- <span class="sr-only">Previous</span> --> 
-      </a> <a class="right carousel-control" href="#myCarousel" data-slide="next"> <i class="fa fa-angle-down"></i> 
-      <!-- <span class="sr-only">Next</span> --> 
-      </a> </div>
+     
   </section>
   <!-- Carousel end --> 
   
@@ -606,7 +601,6 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
   </div>
   <!--Gallery end --> 
   
-
   <!--Contact start -->
   <section id="contact" class="home_contact_sec">
     <div class="site-quick-support center-text site-dark-section-a">
@@ -652,7 +646,54 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.7469047695636!2d19.254308815458586!3d42.43312187918205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb3fab1b431f%3A0xc237fdaee1c7ea00!2s17%20Crnogorskih%20Serdara%2C%20Podgorica!5e0!3m2!1sen!2s!4v1584017818848!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>      </div>
     </div>
   </section>
-  <!--Contact end --> 
+  <section id="contact" class="home_contact_sec">
+    <div class="site-quick-support center-text site-dark-section-a">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
+            <div class="left">
+              <h2>Get In touch</h2>
+              <form id="contactForm" class="site-contact-form">
+                <div class="col-lg-10 col-sm-12">
+                  <div class="row">
+                    <input type="text" name="name" placeholder="Name" required="">
+                  </div>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <div class="row">
+                    <input type="email" name="email" placeholder="Email" required="">
+                  </div>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <div class="row">
+                    <input type="text" name="cphone" placeholder="Phone" required="">
+                  </div>
+                </div>
+                <div class="col-lg-10 col-sm-12">
+                  <div class="row">
+                    <textarea name="message" rows="3" placeholder="Message" required=""></textarea>
+                  </div>
+                </div>
+                <div class="clearfix"> </div>
+                <button type="submit" class="primary-btn"> SEND MESSAGE </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 no-padding hmap">
+            <div class="right">
+              <div class="site-google-map" id="site-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237806.27164642312!2d72.85767079414917!3d21.361418794971083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1532954153186" width="100" height="100" style="border:0" allowfullscreen=""></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
   <!--Footer start -->
   <footer class="main-footer">
