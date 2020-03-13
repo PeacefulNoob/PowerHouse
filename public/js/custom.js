@@ -145,28 +145,7 @@ $('.carousel').carousel({
       }
     }
   })
-  /*----------------- BLOG SLIDER -----------------*/
-  var owl = $('#slider3');
-    owl.owlCarousel({
-    loop:true,
-    margin: 20,
-    autoplayTimeout:5000,
-    smartSpeed:450,
-    dots:true,
-    nav: true,
-    navText: ["<i class='fa fa-angle-left'></i>","<i class='fa fa-angle-right'></i>"],
-    responsive: {
-      0: {
-        items: 1
-      },
-      600: {
-        items: 2
-      },
-      1000: {
-        items: 3
-      }
-    }
-  })
+ 
   /*----------------- TESTIMONIALS SLIDER -----------------*/
   var owl = $('#slider5');
     owl.owlCarousel({
@@ -281,10 +260,10 @@ $('#contactForm').submit(function() {
 
 
 /*--------------- TIMETABLE FILTER ---------------*/
-  filterSelection("all")
+  filterSelection("Monday")
   function filterSelection(c) {
     var x, i;
-    x = document.getElementsByClassName("text-content");
+    x = document.getElementsByClassName("project-box");
     if (c === "all") c = "";
     for (i = 0; i < x.length; i++) {
       w3RemoveClass(x[i], "show");

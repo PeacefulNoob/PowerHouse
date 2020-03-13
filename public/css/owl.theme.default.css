@@ -57,17 +57,17 @@
       width: 12px;
       height: 12px;
       margin: 5px 7px;
-      background: #82b53f;
+      background: #7e55d0;
       display: block;
       -webkit-backface-visibility: visible;
       transition: opacity 200ms ease;
 		border-radius: 30px;
-		border:2px solid #82b53f;
+		border:2px solid #7e55d0;
     
      }
     .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
       background: #fff;
-	  border:2px solid #82b53f;
+	  border:2px solid #7e55d0;
 	  width: 12px;
       height: 12px;
     }

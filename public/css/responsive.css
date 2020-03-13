@@ -61,7 +61,7 @@
     max-width: 80%;
   }
   }
-   @media only (min-width: 1133px) {
+   @media  (min-width: 1133px) {
    .tp-banner {
    max-height: 750px !important;
    height: 750px !important;
@@ -71,7 +71,6 @@
   }
    .service_info h5 {
    font-size: 18px;
-   color: #82b53f;
   }
    .service_info p {
    font-size: 15px;
@@ -80,8 +79,7 @@
    padding-left: 60px;
   }
    .home_course_sec .coueses-box {
-   max-width: 290px;
-   max-height: 190px;
+
   }
    .team_sec .owl-nav {
    display: block;
@@ -273,11 +271,11 @@
   /*.main-menu .navbar-header .navbar-toggle {
           display: block;
           z-index: 7;
-          border: 1px solid #82b53f;
+          border: 1px solid #7e55d0;
           margin: 10px 0;
       }*/
   .main-menu .navbar-header .navbar-toggle .icon-bar {
-    background: #82b53f;
+    background: #7e55d0;
   }
   .main-header .header-lower .right-cont .search-btn {
     right: 0;

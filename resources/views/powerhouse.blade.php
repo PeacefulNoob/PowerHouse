@@ -7,8 +7,7 @@
 <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GymFit-Home</title>
-<link rel="shortcut icon" type="image/x-icon" href="/images/fivicon.ico">
+<title>Power House</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
 <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -40,9 +39,8 @@
     </div>
     <div class="header-lower">
       <div class="container clearfix">
-        <div class="logo pull-left"><a href="index.html">
-          <h2 class="logo_name">GYM <span class="white_text">FIT </span> </h2>
-          </a></div>
+        <div class="logo pull-left"><a href="#">
+        <img src="/images/logobeli.svg" style="width: 60%;"/>   </a></div>
         <div class="right-cont clearfix">
           <nav class="main-menu">
             <div class="navbar-header">
@@ -55,7 +53,6 @@
                 <li class="nav-link"><a href="#course" class="js-scroll-trigger">PROGRAMI</a></li>
                 <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">RASPORED</a></li>
                 <li class="nav-link"><a href="#contact" class="js-scroll-trigger">KONTAKT</a></li>
-                <li class="search-btn" onclick="openSearch()"><a><i class="fa fa-search"></i></a></li>
               </ul>
               <div class="clearfix"></div>
             </div>
@@ -77,11 +74,11 @@
   <!-- Modalni start -->
   <div class="modal" id="myModal1">
     <div class="modal-dialog">
-      <div class="modal-content">
+      <div class="modal-content" style="color: #111111;">
       
         <!-- Modal Header -->
         <div class="modal-header">
-        <h2 class="title"><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTAR</span></h2><p>Power house fitnes je novootvoreni centar u Podgorici koji ima za cilj da pruži vježbačima sve ono što im je potrebno u postizanju zacrtanih ciljeva u fitnesu. Ove ciljeve ćemo se potruditi da postignemo kroz dvije vrste usluga koje nudimo, a to su:</p>
+        <h2 class=""><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTAR</span></h2><p>Power house fitnes je novootvoreni centar u Podgorici koji ima za cilj da pruži vježbačima sve ono što im je potrebno u postizanju zacrtanih ciljeva u fitnesu. Ove ciljeve ćemo se potruditi da postignemo kroz dvije vrste usluga koje nudimo, a to su:</p>
 
           <button type="button" id="close1" class="close" data-dismiss="modal">×</button>
         </div>
@@ -92,7 +89,7 @@
 
           
 <div class="mojDiv ">
-        <h4 class="title">      Personalni treninzi        </h4>
+        <h4 class="">      Personalni treninzi        </h4>
     
         <div class="panel-body">
         Personalni treninzi su namijenjeni pojedincima, prilagođeni u cjelosti vama, vašem organizmu i u vrijeme koje odgovara upravo vama. Prednost personalnih treninga je stoprocentno prisustvo trenera sa vježbačima koji u svakom trenutku kontrolišu vaš pokret, intezitet i rad na treningu. Samim tim, još jedna od prednosti ovog načina treniranja je direktna komunikacija sa trenerom što vam omogućava da u realnom vremenu objasnite svom instruktoru šta osjećate prilikom određenih pokreta, da li se javlja neki bol, koliki je njegov intezitet i slično. 
@@ -105,7 +102,7 @@ Najčešći razlozi personalnih treninga kod vježbača iz dosadašnjeg iskustva
  </div>
  </div>
 <div class="divMoj ">
-        <h4 class="title"> Grupni treninzi   </h4>
+        <h4 class=""> Grupni treninzi   </h4>
         <div class="panel-body">
         Grupni treninzi su namijenjeni za sve one vježbače koji vole kolektiv, takmičenje, druženje, pozitivnu energiju i zabavu.
 Naš prostor će biti opremljen najsavremenijom opremom, potpuno novim spravama sa mnogo moćnim audio ozvučenjem i neon rasvjetom. Samim tim, naš centar će se isticati kao najmoderniji fitnes centar u Podgorici, a tome u prilog ne govori samo oprema koju posjedujemo, već i treninzi koje smo za vas pripremili po poslednjem trendu u čitavom svijetu:
@@ -317,7 +314,7 @@ Ovaj trening je idealan za oblikovanje figure vašeg tijela. Za fenomenalne rezu
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ainfo_sec">
               <div class="row">
                 <div class="col-sm-12">
-                  <h2 class="title"><b> O</b><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTAR</span></h2>
+                  <h2 class="title"><b> O</b><span class="green_text"> POWER HOUSE  </span><span class="light_text">FITNESS CENTRU</span></h2>
                 </div>
                 <div class="col-sm-12">
                   <p>Power House fitnes je kuća koja se zalaže za razvoj uspješne fitnes zajednice za ciljem da vas podrži bez obzira na vaše ciljeve u fitnesu. Nalazimo se u ulici Crnogorskih Serdara 17.</p>
@@ -369,7 +366,7 @@ Naš centar pruža uslkuge individualnih i grupnih treninga.
             <figure class="image"><img src="/images/c4.jpg" alt=""> </figure>
             <div class="text-content hvr-bounce-to-bottom">
               <div class="text">
-                <h4>Boxing </h4>
+                <h4>Conditioning </h4>
               </div>
             </div>
           </article>
@@ -398,9 +395,9 @@ Naš centar pruža uslkuge individualnih i grupnih treninga.
   <!--Video start -->
   <section class="video_sec">
     <div class="container-fluid">
-      <div class="row"> <a class="video-link" href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350"> <img src="/images/play.png" alt=""> </a>
+      <div class="row"> <a class="video-link" href="#" data-width="550" data-height="350"> <img src="/images/play.png" alt=""> </a>
         <h2>Explore Fitness Complex </h2>
-        <h2 class="green_text"><a class="video-link" href="https://www.youtube.com/embed/AulGwjIv3m8" data-width="550" data-height="350"> Watch now</a></h2>
+        <h2 class="green_text"><a class="video-link" href="#" data-width="550" data-height="350"> Watch now</a></h2>
       </div>
     </div>
   </section>
@@ -419,7 +416,7 @@ Naš centar pruža uslkuge individualnih i grupnih treninga.
               <div class="team_box"><a href="#"><img src="/images/trainers-1.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
                   <div class="text">  
-                             <p>Akademija FISAF Belgrade - International fitness education center</br>LesMills Body Combat - licenca</br>TRX Qualified</p>
+                             <p>Akademija FISAF Belgrade - International fitness education center</br><span class="green_text">  Licence:</span>LesMills Body Combat </br>TRX Qualified</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
                   </div>
                 </div>
@@ -451,9 +448,8 @@ Naš centar pruža uslkuge individualnih i grupnih treninga.
               <div class="team_box"><a href="#"><img src="/images/trainers-3.png" class="img-responsive" alt=""></a>
                 <div class="overlay">
                   <div class="text">
-                    <p><span class="green_text">  Licence:</span></br>
-Body Combat,Body pump</br><span class="green_text"> Struka:</span></br>Magistar Sporta (Fakultet"Univerzitet Union"Novi Beograd)</br><span class="green_text"> Treninzi u POWER HOUSE-u:</span></br>Body Combat
-Power Up
+                    <p><span class="green_text">  Licence:</span></br>Body Combat,Body pump
+</br><span class="green_text"> Struka:</span></br>Magistar Sporta (Fakultet"Univerzitet Union"Novi Beograd)
 <span class="green_text">Specijalizovan/a:</span></br>
 Body Combat, Strenght, Weight loss</p>
                     <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
@@ -473,8 +469,6 @@ Body Combat, Strenght, Weight loss</p>
                   <div class="text">
                     <p><span class="green_text">  Licence:</span></br>
 Certified Functional Trainer Level 1</br>
-Treninzi u POWER HOUSE-u</br>
-Glute and core</br>
 <span class="green_text">Specijalizovan/a:</span></br>
 Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjice i stomaka
 </p>
@@ -499,19 +493,19 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
   <!--Team end --> 
   
   <!--Timetable start -->
-  <section class="timetable_sec" id="timetable">
+  <section class="timetable_sec" id="timetable" style="    min-height: 500px;">
     <div class="container">
       <div class="row">
-        <h2 class="title"><b> Our timetable</b></h2>
+        <h2 class="title"><b>RASPORED TRENINGA</b></h2>
         <div class="row">
         <ul class="filter-tabs clearfix anim-3-all wow fadeInUp animated day_tabs" id="filter-tabs" data-wow-delay="0ms" data-wow-duration="1000ms">
           <li class="filter active" data-filter=".Monday"  onclick="filterSelection('Monday')"><span class="btn-txt">Ponedeljak</span></li>
-          <li class="filter" data-filter=".tuesday" onclick="filterSelection('tuesday')"><span class="btn-txt">Utorak</span></li>
+          <li class="filter" data-filter=".tuesday" onclick="filterSelection('Tuesday')"><span class="btn-txt">Utorak</span></li>
           <li class="filter" data-filter=".Wednesday" onclick="filterSelection('Wednesday')"><span class="btn-txt">Srijeda</span></li>
           <li class="filter" data-filter=".Thursday" onclick="filterSelection('Thursday')"><span class="btn-txt">Četvrtak</span></li>
           <li class="filter" data-filter=".Friday" onclick="filterSelection('Friday')"><span class="btn-txt">Petak</span></li>
           <li class="filter" data-filter=".Saturday" onclick="filterSelection('Saturday')"><span class="btn-txt">Subota</span></li>
-          <li class="filter" data-filter=".sunday" onclick="filterSelection('sunday')"><span class="btn-txt">Nedelja</span></li>
+          <li class="filter" data-filter=".sunday" onclick="filterSelection('Sunday')"><span class="btn-txt">Nedelja</span></li>
         </ul>
         <select class="select filter-tabs clearfix wow fadeInUp animated select_day" onchange="filterSelection(this.value)" data-wow-delay="0ms" data-wow-duration="1000ms">
           <option  value="Monday">Ponedeljak</option>
@@ -522,64 +516,92 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
           <option  value="Saturday">Subota</option>
           <option  value="sunday">Nedelja</option>
         </select>
-        <div class="projects-container filter-list clearfix wow fadeInUp animated col-sm-12 col-xs-12 col-md-12" data-wow-delay="300ms" data-wow-duration="1000ms">
-          <div class="row">
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="Friday Monday Wednesday text-content"> <img class="img-responsive" src="/images/size.png" alt=""> <br>
+        <div class="projects-container filter-list clearfix wow fadeInUp animated col-sm-12 col-xs-12 col-md-12"  style="min-height: 20%;" data-wow-delay="300ms" data-wow-duration="1000ms">
+          <div class="rws">
+            <article class="Friday Monday Wednesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+              <div class=" text-content"> <img class="img-responsive" src="/images/size.png" alt=""> <br>
                 <span class="time"> 08:30-09:30 </span>
                 <h4> Glut & Core  </h4>
-                <p> MZ </p>
+                <p> MŽ </p>
               </div>
             </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="friday text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
-                <span class="time"> 10:30-11:30 </span>
-                <h4> Power Up   </h4>
-                <p> JK </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-              <div class="monday Wednesday friday text-content"> <img class="img-responsive" src="/images/yoga.png" alt=""> <br>
-                <span class="time"> 18:30-19:30 </span>
-                <h4> Boxing  </h4>
-                <p> JT </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out right-line_hide">
-              <div class="text-content Monday mix_all  tuesday Wednesday sundays "> <img class="img-responsive" src="/images/body.png" alt=""> <br>
-                <span class="time"> 10:30-11:30 </span>
-                <h4>Power Up </h4>
-                <p> JK </p>
-              </div>
-            </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class=" tuesday Thursday text-content"> <img class="img-responsive" src="/images/box.png" alt=""> <br>
+            <article class="Tuesday Thursday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class="  text-content"> <img class="img-responsive" src="/images/box.png" alt=""> <br>
                 <span class="time">  09:10-10:10 </span>
                 <h4> Conditioning </h4>
                 <p> JK </p>
               </div>
             </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class="Thursday tuesday  text-content"> <img class="img-responsive" src="/images/boxing-gloves.png" alt=""> <br>
+            <article class="Saturday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out  ">
+              <div class=" text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 10:00-11:00 </span>
+                <h4>  Pilates </h4>
+            
+              </div>
+            </article>
+            <article class="Monday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+              <div class=" text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 10:30-11:30 </span>
+                <h4> Power Up   </h4>
+                <p> JK </p>
+              </div>
+            </article>
+            <article class="  Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class="text-content"> <img class="img-responsive" src="/images/body.png" alt=""> <br>
+                <span class="time"> 10:30-11:30 </span>
+                <h4>Power Up </h4>
+                <p> VP </p>
+              </div>
+            </article>
+            <article class="Saturday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class=" text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 11:00-12:00 </span>
+                <h4> Combat   </h4>
+                <p> VP </p>
+              </div>
+            </article>
+            <article class="Thursday Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class="  text-content"> <img class="img-responsive" src="/images/boxing-gloves.png" alt=""> <br>
                 <span class="time"> 12:00-13:00 </span>
                 <h4> Cardio Kingz </h4>
                 <p> JT </p>
               </div>
             </article>
-            <article class="project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out bottomrow">
-              <div class="Thursday tuesday text-content"> <img class="img-responsive" src="/images/rope.png" alt=""> <br>
+            <article class="Monday Wednesday Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+              <div class=" text-content"> <img class="img-responsive" src="/images/yoga.png" alt=""> <br>
+                <span class="time"> 18:30-19:30 </span>
+                <h4> Boxing  </h4>
+                <p> JT </p>
+              </div>
+            </article>      
+            <article class="Thursday Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class=" text-content"> <img class="img-responsive" src="/images/rope.png" alt=""> <br>
                 <span class="time"> 19:00-20:00 </span>
                 <h4> Body Combat </h4>
                 <p> JK </p>
               </div>
             </article>
-            <article class="project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out right-line_hide bottomrow">
-              <div class="Thursday tuesday Saturday text-content show"> <img class="img-responsive" src="/images/biceps.png" alt=""> <br>
-                <span class="time"> 20:10-21:10 </span>
-                <h4>Pilates</h4>
-               
+            <article class="Friday Monday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class=" text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 19:40-20:40 </span>
+                <h4> Power Up   </h4>
+                <p> JK </p>
               </div>
             </article>
+            <article class="Wednesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+              <div class=" text-content"> <img class="img-responsive" src="/images/run.png" alt=""> <br>
+                <span class="time"> 19:40-20:40 </span>
+                <h4> Power Up   </h4>
+                <p> VP </p>
+              </div>
+            </article>
+            <article class="Thursday Tuesday  project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out  ">
+              <div class=" text-content "> <img class="img-responsive" src="/images/biceps.png" alt=""> <br>
+                <span class="time"> 20:10-21:10 </span>
+                <h4>Pilates</h4>
+              </div>
+            </article>
+     
           </div>
         </div>
       </div>
@@ -608,31 +630,31 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
         <div class="row">
           <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
             <div class="left">
-              <h2>Get In touch</h2>
+              <h2>Kontakt</h2>
               <form  action="{{route('contact.store')}}" method="post" class="site-contact-form">
              {{ csrf_field() }}
               <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="text" name="name" placeholder="Vaše ime" required>
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="email" name="email" placeholder="E-mail" required>
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <input type="text" name="phone" placeholder="Phone" required>
+                    <input type="text" name="phone" placeholder="Vaš broj telefona" required>
                   </div>
                 </div>
                 <div class="col-lg-10 col-sm-12">
                   <div class="row">
-                    <textarea name="message" rows="3" placeholder="Message" required></textarea>
+                    <textarea name="message" rows="3" placeholder="Vaša poruka" required></textarea>
                   </div>
                 </div>
                 <div class="clearfix"> </div>
-                <button type="submit" class="primary-btn"> SEND MESSAGE </button>
+                <button type="submit" class="primary-btn"> POŠALJI </button>
               </form>
             </div>
           </div>
@@ -643,71 +665,24 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
           <div class="col-sm-12 col-md-12 col-lg-12 no-padding hmap">
             <div class="right">
               <div class="site-google-map" id="site-map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.7469047695636!2d19.254308815458586!3d42.43312187918205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb3fab1b431f%3A0xc237fdaee1c7ea00!2s17%20Crnogorskih%20Serdara%2C%20Podgorica!5e0!3m2!1sen!2s!4v1584017818848!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>      </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.7469047695636!2d19.254308815458586!3d42.43312187918205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134deb3fab1b431f%3A0xc237fdaee1c7ea00!2s17%20Crnogorskih%20Serdara%2C%20Podgorica!5e0!3m2!1sen!2s!4v1584017818848!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>   
+                 </div>
     </div>
   </section>
-  <section id="contact" class="home_contact_sec">
-    <div class="site-quick-support center-text site-dark-section-a">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
-            <div class="left">
-              <h2>Get In touch</h2>
-              <form id="contactForm" class="site-contact-form">
-                <div class="col-lg-10 col-sm-12">
-                  <div class="row">
-                    <input type="text" name="name" placeholder="Name" required="">
-                  </div>
-                </div>
-                <div class="col-lg-10 col-sm-12">
-                  <div class="row">
-                    <input type="email" name="email" placeholder="Email" required="">
-                  </div>
-                </div>
-                <div class="col-lg-10 col-sm-12">
-                  <div class="row">
-                    <input type="text" name="cphone" placeholder="Phone" required="">
-                  </div>
-                </div>
-                <div class="col-lg-10 col-sm-12">
-                  <div class="row">
-                    <textarea name="message" rows="3" placeholder="Message" required=""></textarea>
-                  </div>
-                </div>
-                <div class="clearfix"> </div>
-                <button type="submit" class="primary-btn"> SEND MESSAGE </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 no-padding hmap">
-            <div class="right">
-              <div class="site-google-map" id="site-map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d237806.27164642312!2d72.85767079414917!3d21.361418794971083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1532954153186" width="100" height="100" style="border:0" allowfullscreen=""></iframe>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
+
   <!--Footer start -->
   <footer class="main-footer">
     
     <div class="container">
       <div class="footer-widget-area clearfix">
-        <div class="footer-widget about-widget col-md-3 col-sm-6 col-xs-12"> <a href="#">
+        <div class="footer-widget about-widget col-md-4 col-sm-6 col-xs-12"> <a href="#">
 <img src="/images/logobeli.svg" />          </a>
           <div class="widget-about">
             <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a> <a class="fa fa-instagram" href="#"></a> </div>
           </div>
         </div>
-        <div class="footer-widget quick-links col-md-2 col-sm-6 col-xs-12 ">
-          <h4>LINKS</h4>
+        <div class="footer-widget quick-links col-md-4 col-sm-6 col-xs-6 ">
+          <h4>LINK</h4>
           <div class="widget-link">
             <ul>
               <li> <a href="#home">Pocetna</a></li>
@@ -719,7 +694,7 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
           </div>
         </div>
        
-        <div class="footer-widget address col-md-3 col-sm-6 col-xs-12">
+        <div class="footer-widget address col-md-4 col-sm-6 col-xs-6">
           <h4>Kontakt</h4>
           <div class="widget-content">
             <div class="address_box"> <i class="fa fa-phone"></i>

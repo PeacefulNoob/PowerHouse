@@ -57,10 +57,10 @@ p {
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
-	color: #000000;
+	color:#fff;
 	line-height: 1.6em;
 	font-weight: 400;
-	background: #fff;
+	background: #111111;
 }
 html {
 	font-size: 10px;
@@ -69,10 +69,14 @@ html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
-a:hover, a:focus, a:visited {
+a:visited{
+
+}
+a:hover, a:focus  {
 	text-decoration: none;
 	outline: none;
-	color: #ffffff;
+	color: #311f53;
+    font-weight: bold;
 }
 a {
 	text-decoration: none;
@@ -131,14 +135,14 @@ textarea:focus, input:focus, select:focus, a:focus, button:focus {
 	padding: 11px 40px;
 	text-transform: uppercase;
 	border: none;
-	box-shadow: 3px 4px 15px 0px rgba(168, 168, 168, 0.75); 
+	box-shadow: 1px 4px 15px 0px rgba(168, 168, 168, 0.35);
 }
 .primary-btn:hover .btn-text {
 	opacity: 1;
 	color: #ffffff;
 }
 .primary-btn:hover, .primary-btn:focus, .primary-btn:active {
-	background-color:#72a82c;
+	background-color:#311f53;
 	transition: all ease 0.5s 0s;
 }
 
@@ -165,8 +169,7 @@ Header
 .main-header .header-top {
 	position: relative;
 	background: #7e55d0af;
-	padding: 10px 0;
-	border-bottom: 1px solid #ffffff;
+
 }
 .page-wrapper .header-fixed .header-lower {
 	position: fixed;
@@ -565,7 +568,7 @@ about_section
 .home_about_sec {
 	position: relative;
 	padding: 80px 0 80px;
-	background: #ffffff;
+	background: #111111;
 }
 .home_about_sec .aimg_sec img {
 	width: 100%;
@@ -576,7 +579,7 @@ about_section
 .title {
 	text-transform: uppercase;
 	font-weight: 800;
-	color: #000000;
+	color: #fff;
 	padding-bottom: 10px;
 }
 .home_about_sec .ainfo_sec .title .green_text {
@@ -600,7 +603,7 @@ h2.title b {
 .home_course_sec {
 	position: relative;
 	padding: 80px 0 80px;
-	background: #f3f3f3;
+	background: #202020;
 }
 .home_course_sec .title {
 	text-align: center;
@@ -669,7 +672,7 @@ h2.title b {
     height: auto;
     width: 100%;
     text-align: left;
-    background: rgba(255,255,255,0.85);
+    background: rgba(21,21,21,0.85);
     transform: rotate(358deg) skewX(29deg);
 }
 .hvr-bounce-to-bottom {
@@ -747,9 +750,7 @@ Video_section
 	background: url(../images/video_sec.png) no-repeat fixed center;
 	background-size: cover;
 }
-.video_sec img:hover {
-	background-image: url(../images/playbg.png);
-}
+
 .player {
 	position: fixed;
 	z-index: 1;
@@ -816,7 +817,7 @@ Team_section
 .team_sec {
 	position: relative;
 	padding: 80px 0 80px;
-	background: #f3f3f3;
+	background: #202020;
 }
 .team_sec .owl-carousel .owl-item {
 	overflow: hidden;
@@ -835,7 +836,7 @@ Team_section
 	height: auto;
 	width: 100%;
 	text-align: left;
-	background: rgba(255,255,255,0.85);
+	background: rgba(21,21,21,0.85);
 	border-top: 4px solid #7e55d0;
 	position: absolute;
 	transform: rotate(357deg) skew(20deg);
@@ -1042,7 +1043,7 @@ Timetabel_section
 .timetable_sec {
 	position: relative;
 	padding: 80px 0 70px;
-	background: #ffffff;
+	background: #111111;
 }
 .timetable_sec .title {
     text-align: center;
@@ -1066,7 +1067,7 @@ Timetabel_section
 	padding: 8px 24px;
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #000000;
+	color: #ffffff;
 	cursor: pointer;
 	font-weight: 500;
 	transition: all ease 0.5s 0s;
@@ -1085,8 +1086,8 @@ Timetabel_section
 	top: 0;
 	width: 100%;
 	height: 100%;
-	border: 1px solid #f1f1f1;
-	background: #f3f3f3;
+	border: 1px solid #202020;
+	background: #373735;
 	z-index: 0;
 	border-radius: 20px;
 	transition: all ease 0.5s 0s;
@@ -1098,13 +1099,12 @@ Timetabel_section
 .timetable_sec .project-box {
 	position: inherit;
 	float: left;
-	display: block;
+	display: none;
 	overflow: hidden;
 	transition: all 0.7s ease;
 	text-align: center;
 	visibility: visible;
-	border-right: 1px solid #dcdee6;
-	border-bottom: 1px solid #dcdee6;
+
 }
 .projects-container .bottomrow {
 	border-bottom: none;
@@ -1115,7 +1115,6 @@ Timetabel_section
 .timetable_sec .project-box .text-content {
 	margin: 20px 10px;
 	padding: 0 10px;
-	visibility: hidden;
 }
 .hvr-rectangle-out:hover:before, .hvr-rectangle-out:focus:before, .hvr-rectangle-out:active:before {
 	-webkit-transform: scale(1);
@@ -1168,7 +1167,7 @@ Timetabel_section
 .timetable_sec .project-box .text-content h4 {
 	text-transform: uppercase;
 	margin-top: 10px;
-	color: #040404;
+	color: #fff;
 	font-weight: 600;
 }
 .timetable_sec .project-box .text-content p {
@@ -1210,7 +1209,7 @@ Timetabel_section
 #filter-tabs {
     text-align: center;
     list-style: none;
-    background-color: #f3f3f3;
+    background-color: #111111;
     /*padding: 9px;*/
 	margin-bottom: 40px !important;
     width: -moz-max-content;
@@ -1483,7 +1482,7 @@ color: #ffffff;
 }
 .hmap iframe {
 	max-height: 630px;
-	filter: grayscale(100%);
+
 }
 
 /* 
@@ -1556,20 +1555,22 @@ Footer
 #slider1 i.fa.fa-angle-left {
 	height: 44px;
 	width: 44px;
-	border: 1px solid #000;
+	border: none;
 	font-weight: normal;
 	font-size: 36px;
 	line-height: 39px;
 	color: #000;
+	background-color: #202020;
 }
 #slider1 i.fa.fa-angle-right {
 	height: 44px;
 	width: 44px;
-	border: 1px solid #000;
+	border: none;
 	font-weight: normal;
 	font-size: 36px;
 	line-height: 39px;
 	color: #000;
+	background-color: #202020;
 }
 #slider2 .owl-stage-outer {
 	padding: 0px 0px 0px 0px !important;
@@ -1598,7 +1599,7 @@ Footer
 }
 .home_contact_sec iframe{
     float: right;
-    width: 75%;
+	width: 100%;
 	height:100%;
 }
 /*------------------------------ 
@@ -2503,7 +2504,7 @@ input.submit_btn {
 	transition: all ease 0.5s 0s;
 }
 input.submit_btn:hover {
-	background-color:#72a82c;
+	background-color:#311f53;
 	transition: all ease 0.5s 0s;
 }
 
@@ -3126,7 +3127,7 @@ h2.blog_title {
 	border-radius:0px;
 }
 .comment-respond .btn-submit:hover {
-    background-color: #72a82c;
+    background-color: #311f53;
     transition: all ease 0.5s 0s;
 }
 .c-post header {
@@ -3170,6 +3171,26 @@ blockquote p{
   animation-delay: 0.8s, 0s;
 }
 
+::-webkit-scrollbar {
+	width: 7px;
+	background:transparent; 
+	}
+	::-webkit-scrollbar-track {
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background:#070404;
+	}
+	::-webkit-scrollbar-thumb {
+	background: #353e4e; 
+	border-radius: 5px;
+	}
 
 
-
+.div{
+	width: 33%;
+	flex:33%;
+}
+.rws{
+	display: flex;
+	flex-wrap: wrap;
+}
