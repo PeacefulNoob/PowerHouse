@@ -3,17 +3,39 @@
   .item .b_date {
     top: 120px;
   }
+  .logo{
+    width: 80%;
+  }
   }
    @media (min-width:350px) and (max-width:370px) {
   .item .b_date {
     top: 146px;
+
   }
+  .logo{
+    width: 80%;
+  }
+  .address {
+    padding-left:2px; 
+}
   }
   @media (min-width:410px) and (max-width:420px) {
   .item .b_date {
     top: 182px;
   }
+  .address {
+    padding-left:2px; 
+}
+.logo{
+  width: 80%;
+}
   }
+  @media (max-width:450px) {
+
+  .logo{
+    width: 80%;
+  }
+}
    @media (min-width:992px) and (max-width:1200px) {
   .home_course_sec {
     padding: 50px 0 50px;
@@ -94,7 +116,7 @@
   }
    @media (min-width: 1024px) and (max-width: 1280px){
   .quick-links {
-    padding-left: 30px !important;
+    padding-left: 60px !important;
   }
   .latest-work {
     padding-left: 10px !important;
@@ -755,12 +777,8 @@
   .latest-work {
     padding-left: 0px !important;
   }
-  .quick-links {
-    padding-left: 0px !important;
-  }
-  .quick-links {
-    padding-left: 0px !important;
-  }
+
+
   section.about_inner_page {
     padding-top: 0px;
   }

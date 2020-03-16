@@ -675,13 +675,13 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
     
     <div class="container">
       <div class="footer-widget-area clearfix">
-        <div class="footer-widget about-widget col-md-4 col-sm-6 col-xs-12"> <a href="#">
+        <div class="footer-widget about-widget col-md-5 col-sm-4 col-xs-12"> <a href="#">
 <img src="/images/logobeli.svg" />          </a>
           <div class="widget-about">
             <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a> <a class="fa fa-instagram" href="#"></a> </div>
           </div>
         </div>
-        <div class="footer-widget quick-links col-md-4 col-sm-6 col-xs-6 ">
+        <div class="footer-widget quick-links col-md-3 col-sm-4 col-xs-4 ">
           <h4>LINK</h4>
           <div class="widget-link">
             <ul>
@@ -694,7 +694,7 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
           </div>
         </div>
        
-        <div class="footer-widget address col-md-4 col-sm-6 col-xs-6">
+        <div class="footer-widget address col-md-4 col-sm-4 col-xs-8">
           <h4>Kontakt</h4>
           <div class="widget-content">
             <div class="address_box"> <i class="fa fa-phone"></i>
@@ -705,7 +705,7 @@ Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjic
             </div>
             <div class="address_box1"> <i class="fa fa-map-marker"></i>
               <p>Crnogorskih Serdara 17<br>
-               Podgorica, Crna Gora 81000
+               Podgorica
 </p>
             </div>
           </div>
