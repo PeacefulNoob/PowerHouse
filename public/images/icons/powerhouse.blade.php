@@ -31,10 +31,10 @@
         <div class="container clearfix">
           <div class="top-left pull-left clearfix">
             <div class="phone pull-left"><a href="#"><i class="fa fa-phone"></i>123 1234 123</a></div>
-            <div class="email pull-left"><a href="mailto:powerhousefitness.info@gmail.com"><i class="fa fa-envelope-o"></i> powerhousefitness.info@gmail.com </a></div>
+            <div class="email pull-left"><a href="mailto:Fetness@yourdomain.com"><i class="fa fa-envelope-o"></i> Fitness@yourdomain.com</a></div>
           </div>
           <div class="top-right pull-right clearfix">
-            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a></div>
+            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a></div>
           </div>
         </div>
       </div>
@@ -223,20 +223,19 @@
         </div>
       </div>
     </div>
-    @include('messages')
 
     <!-- Modalni end -->
     <!-- Crousel start -->
     <section class="main-slider slide-wrapper" id="home">
-      <div class="carousel slide">
+      <div  class="carousel slide">
         <div class="item item1">
           <div class="fill" style=" background-image:url(/images/b3.jpg)">
             <div class="inner-content">
               <div class="container">
                 <div class="row">
                   <div class="col-md-7 iner_info">
-                    <h2 class="wow ">Power House fitness</h2>
-                    <h3 class="wow ">Everyday's champions!</h3>
+                    <h2 class="wow fadeInUp animated img_animate">Power House fitness</h2>
+                    <h3 class="wow fadeInUp animated title_animate">Everyday's champions!</h3>
                     <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
                   </div>
                 </div>
@@ -416,7 +415,7 @@
           <div class="carousel">
             <div class="owl-carousel owl-theme ss_carousel col-md-12 col-xs-12 col-sm-12" id="slider1">
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/JelenaKujovic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><a href="#"><img src="/images/trainers-1.png" class="img-responsive" alt=""></a>
                   <div class="overlay">
                     <div class="text">
                       <p>Akademija FISAF Belgrade - International fitness education center</br><span class="green_text"> Licence:</span>LesMills Body Combat </br>TRX Qualified</p>
@@ -432,7 +431,7 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/JovanTodorovic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><a href="#"><img src="/images/trainers/6VizualJt.png" class="img-responsive" alt=""></a>
                   <div class="overlay">
                     <div class="text">
                       <p>Profesionalni MMA borac </br>Kick Boxing</br> Muay Thai & Boxing</p>
@@ -448,7 +447,7 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/VanjaPrelevic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><a href="#"><img src="/images/trainers/7VizualVp.png" class="img-responsive" alt=""></a>
                   <div class="overlay">
                     <div class="text">
                       <p><span class="green_text"> Licence:</span></br>Body Combat,Body pump
@@ -467,7 +466,7 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/MarijaZaric.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><a href="#"><img src="/images/trainers/4Vizualmz.png" class="img-responsive" alt=""></a>
                   <div class="overlay">
                     <div class="text">
                       <p><span class="green_text"> Licence:</span></br>
@@ -681,8 +680,7 @@
           <div class="footer-widget about-widget col-md-5 col-sm-4 col-xs-12"> <a href="#">
               <img src="/images/logobeli.svg" /> </a>
             <div class="widget-about">
-              <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a>
-                <a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a> </div>
+              <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a> <a class="fa fa-instagram" href="#"></a> </div>
             </div>
           </div>
           <div class="footer-widget quick-links col-md-3 col-sm-4 col-xs-4 ">
@@ -705,8 +703,7 @@
                 <p>123-1234-123</p>
               </div>
               <div class="address_box"> <i class="fa fa-envelope"></i>
-                <p>powerhousefitness.info@gmail.com
-                </p>
+                <p>Fitness@domain.com</p>
               </div>
               <div class="address_box1"> <i class="fa fa-map-marker"></i>
                 <p>Crnogorskih Serdara 17<br>

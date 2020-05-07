@@ -75,7 +75,7 @@ a:visited{
 a:hover, a:focus  {
 	text-decoration: none;
 	outline: none;
-	color: #311f53;
+	color: #6946adaf;
     font-weight: bold;
 }
 a {
@@ -106,7 +106,7 @@ textarea:focus, input:focus, select:focus, a:focus, button:focus {
 	background-color: #ffffff;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-image: url(../images/loading.svg);
+	background-image: url(../images/icons/loading.svg);
 }
 .hidden {
 	display: none;
@@ -1696,6 +1696,7 @@ i.fa.fa-arrow-right {
 .address_box {
 	width: 100%;
 	overflow: hidden;
+	padding-bottom: 10px;s
 	margin-bottom: 20px;
 }
 .address_box i.fa.fa-phone {
