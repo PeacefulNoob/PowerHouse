@@ -7,7 +7,17 @@
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="https://powerhousefitness.me/images/icons/Ikonica-za-browser.png" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://powerhousefitness.me/" />
   <title>Power House</title>
+
+  <link rel="icon" type="image/png" href="/images/icons/Ikonica-za-browser.png" />
+  <link rel="apple-touch-icon-precomposed" href="/images/icons/Ikonica-za-browser" type="image/png" sizes="152x152" />
+  <link rel="apple-touch-icon-precomposed" href="/images/icons/Ikonica-za-browser" type="image/png" sizes="120x120" />
+  <link rel="apple-touch-icon" href="/images/icons/Ikonica-za-browser.png" sizes="180x180" />
+
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -17,6 +27,7 @@
   <link rel="stylesheet" href="/css/owl.carousel.css">
   <link rel="stylesheet" href="/css/animate.css">
   <link rel="stylesheet" href="/css/owl.theme.default.css">
+
 </head>
 
 <body>
@@ -30,18 +41,18 @@
       <div class="header-top">
         <div class="container clearfix">
           <div class="top-left pull-left clearfix">
-            <div class="phone pull-left"><a href="#"><i class="fa fa-phone"></i>123 1234 123</a></div>
+            <div class="phone pull-left"><a href="#"><i class="fa fa-phone"></i>+382 67/537-457</a></div>
             <div class="email pull-left"><a href="mailto:powerhousefitness.info@gmail.com"><i class="fa fa-envelope-o"></i> powerhousefitness.info@gmail.com </a></div>
           </div>
           <div class="top-right pull-right clearfix">
-            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a></div>
+            <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-youtube" href="#"></a><a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a></div>
           </div>
         </div>
       </div>
       <div class="header-lower">
         <div class="container clearfix">
           <div class="logo pull-left"><a href="#">
-              <img src="/images/logobeli.svg" style="width: 60%;" /> </a></div>
+              <img src="/images/logobeli.svg" style="width: 60%;height: 50px;" /> </a></div>
           <div class="right-cont clearfix">
             <nav class="main-menu">
               <div class="navbar-header">
@@ -49,7 +60,7 @@
               </div>
               <div class="navbar-collapse collapse clearfix">
                 <ul class="nav navbar-nav navbar-right  ml-auto" id="onenav">
-                  <li class="nav-link home current"><a href="#home" class="js-scroll-trigger">POCETNA</a> </li>
+                  <li class="nav-link home current"><a href="#home" class="js-scroll-trigger">Početna</a> </li>
                   <li class="nav-link"><a href="#aboutus" class="js-scroll-trigger">O NAMA</a> </li>
                   <li class="nav-link"><a href="#course" class="js-scroll-trigger">PROGRAMI</a></li>
                   <li class="nav-link"><a href="#timetable" class="js-scroll-trigger">RASPORED</a></li>
@@ -75,7 +86,7 @@
     <!-- Modalni start -->
     <div class="modal" id="myModal1">
       <div class="modal-dialog">
-        <div class="modal-content" style="color: #111111;">
+        <div class="modal-content" style="color: white;">
 
           <!-- Modal Header -->
           <div class="modal-header">
@@ -229,17 +240,16 @@
     <!-- Crousel start -->
     <section class="main-slider slide-wrapper" id="home">
       <div class="carousel slide">
-        <div class="item item1">
-          <div class="fill" style=" background-image:url(/images/b3.jpg)">
-            <div class="inner-content">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-7 iner_info">
-                    <h2 class="wow ">Power House fitness</h2>
-                    <h3 class="wow ">Everyday's champions!</h3>
-                    <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span>Contact Us</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-                  </div>
-                </div>
+        <video id="hero-video" playsinline="" autoplay="autoplay" loop="" muted="" id="bgvideo" width="x" height="y">
+          <source src="/images/Naslovna0.2.mp4" type="video/mp4">
+        </video>
+        <div class="inner-content">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 iner_info">
+                <h2 class="wow ">Power House fitness</h2>
+                <h3 class="wow ">Everyday's champions!</h3>
+                <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span></span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -280,19 +290,20 @@
                       <h2>Naše usluge </h2>
                       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 borderbtm"> </div>
                       <br>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
-                      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/icons/si1.png" alt=""> </div>
-                      <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                        <h5>Personalni treninzi</h5>
-                        <p>Program koji je vama namijenjen i u vrijeme koje vama odgovara.</p>
+
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/icons/si1.png" alt=""> </div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                          <h5>Personalni treninzi</h5>
+                          <p>Program koji je vama namijenjen i u vrijeme koje vama odgovara.</p>
+                        </div>
                       </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
-                      <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/icons/si2.png" alt=""> </div>
-                      <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
-                        <h5>Grupni treninzi </h5>
-                        <p>Body Combat, Power Up, Boxing, Conditioning, Pilates, Glut & Core, Cardio Kingz. </p>
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 service_info">
+                        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2"> <img src="/images/icons/si2.png" alt=""> </div>
+                        <div class="col-xs-10 col-sm-10 col-md-8 col-lg-8">
+                          <h5>Grupni treninzi </h5>
+                          <p>Body Combat, Power Up, Boxing, Conditioning, Pilates, Glut & Core, Cardio Kingz. </p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -322,7 +333,7 @@
                   <div class="col-sm-12">
                     <p>Power House fitnes je kuća koja se zalaže za razvoj uspješne fitnes zajednice za ciljem da vas podrži bez obzira na vaše ciljeve u fitnesu. Nalazimo se u ulici Crnogorskih Serdara 17.</p>
                     <p> U Power House fitnesu treninge vode licencirani treneri sa mnogo iskustva, koji će u svakom trenutku znati da vam daju pravi savjet u odnosu na vaše nedoumice, pitanja ili probleme.
-                      Naš centar pruža uslkuge individualnih i grupnih treninga.
+                      Naš centar pruža usluge individualnih i grupnih treninga.
                     </p>
                     <button type="button" class="primary-btn" data-toggle="modal" data-target="#myModal1" id="btn1">Detaljnije</button>
 
@@ -416,11 +427,11 @@
           <div class="carousel">
             <div class="owl-carousel owl-theme ss_carousel col-md-12 col-xs-12 col-sm-12" id="slider1">
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/JelenaKujovic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><img src="/images/trainers/JelenaKujovic.jpg" class="img-responsive" alt="">
                   <div class="overlay">
-                    <div class="text">
-                      <p>Akademija FISAF Belgrade - International fitness education center</br><span class="green_text"> Licence:</span>LesMills Body Combat </br>TRX Qualified</p>
-                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
+                    <div class="text"><span class="green_text"> Struka:</span></br>
+                      <p>Akademija FISAF Belgrade - International fitness education center</br><span class="green_text"> Licence: </span></br> LesMills Body Combat </br>TRX Qualified</p>
+                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> </a><a class="fa fa-instagram" href="#"></a> </div>
                     </div>
                   </div>
                   <div class="text-content hvr-bounce-to-bottom">
@@ -432,11 +443,11 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/JovanTodorovic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><img src="/images/trainers/JovanTodorovic.jpg" class="img-responsive" alt="">
                   <div class="overlay">
-                    <div class="text">
+                    <div class="text"><span class="green_text"> Struka:</span></br>
                       <p>Profesionalni MMA borac </br>Kick Boxing</br> Muay Thai & Boxing</p>
-                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
+                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> </a><a class="fa fa-instagram" href="#"></a> </div>
                     </div>
                   </div>
                   <div class="text-content hvr-bounce-to-bottom">
@@ -448,14 +459,14 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/VanjaPrelevic.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><img src="/images/trainers/VanjaPrelevic.jpg" class="img-responsive" alt="">
                   <div class="overlay">
                     <div class="text">
-                      <p><span class="green_text"> Licence:</span></br>Body Combat,Body pump
-                        </br><span class="green_text"> Struka:</span></br>Magistar Sporta (Fakultet"Univerzitet Union"Novi Beograd)
-                        <span class="green_text">Specijalizovan/a:</span></br>
+
+                      </br><span class="green_text"> Struka:</span></br>Magistar Sporta (Fakultet"Univerzitet Union"Novi Beograd)
+                      <p><span class="green_text"> Licence:</span></br>Body Combat,Body pump <span class="green_text">Specijalizovan/a:</span></br>
                         Body Combat, Strenght, Weight loss</p>
-                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
+                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> </a><a class="fa fa-instagram" href="#"></a> </div>
                     </div>
                   </div>
                   <div class="text-content hvr-bounce-to-bottom">
@@ -467,7 +478,7 @@
                 </div>
               </div>
               <div class="item">
-                <div class="team_box"><a href="#"><img src="/images/trainers/MarijaZaric.jpg" class="img-responsive" alt=""></a>
+                <div class="team_box"><img src="/images/trainers/MarijaZaric.jpg" class="img-responsive" alt="">
                   <div class="overlay">
                     <div class="text">
                       <p><span class="green_text"> Licence:</span></br>
@@ -475,7 +486,7 @@
                         <span class="green_text">Specijalizovan/a:</span></br>
                         Osnovni ljudski pokreti, građa vašeg tijela, dodatni fokus na jačanju zadnjice i stomaka
                       </p>
-                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a><a class="fa fa-instagram" href="#"></a> </div>
+                      <div class="team_icon"><a class="fa fa-facebook-f" href="#"></a> </a><a class="fa fa-instagram" href="#"></a> </div>
                     </div>
                   </div>
                   <div class="text-content hvr-bounce-to-bottom">
@@ -614,7 +625,7 @@
     <!--Timetable end -->
 
     <!--Gallery start -->
-    <div class="gallery">
+    <!-- <div class="gallery">
       <div class="footer-gallery owl-carousel owl-theme ss_carousel" id="slider2">
         <div class="item"><a class="example-image-link" href="/images/gallery_1.jpg" data-lightbox="example-1"><img class="example-image" src="/images/gallery_1.png" alt="image-1" /></a></div>
         <div class="item"><a class="example-image-link" href="/images/gallery_2.jpg" data-lightbox="example-1"><img class="example-image" src="/images/gallery_2.png" alt="image-1" /></a></div>
@@ -623,7 +634,7 @@
         <div class="item"><a class="example-image-link" href="/images/gallery_5.jpg" data-lightbox="example-1"><img class="example-image" src="/images/gallery_5.png" alt="image-1" /></a></div>
         <div class="item"><a class="example-image-link" href="/images/gallery_2.jpg" data-lightbox="example-1"><img class="example-image" src="/images/gallery_2.png" alt="image-1" /></a></div>
       </div>
-    </div>
+    </div> -->
     <!--Gallery end -->
 
     <!--Contact start -->
@@ -681,15 +692,20 @@
           <div class="footer-widget about-widget col-md-5 col-sm-4 col-xs-12"> <a href="#">
               <img src="/images/logobeli.svg" /> </a>
             <div class="widget-about">
-              <div class="social"><a class="fa fa-facebook-f" href="#"></a> <a class="fa fa-twitter" href="#"></a>
-                <a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a> </div>
+              <div class="social">
+                <a class="fa fa-facebook-f" href="#"></a>
+                <a class="fa fa-youtube" href="#"></a>
+                <a class="fa fa-instagram" href="https://www.instagram.com/powerhouse.fitness.centre/" target="_blank"></a>
+
+
+              </div>
             </div>
           </div>
           <div class="footer-widget quick-links col-md-3 col-sm-4 col-xs-4 ">
             <h4>LINK</h4>
             <div class="widget-link">
               <ul>
-                <li> <a href="#home">Pocetna</a></li>
+                <li> <a href="#home">Početna</a></li>
                 <li> <a href="#aboutus">O nama</a></li>
                 <li> <a href="#course">Programi</a></li>
                 <li> <a href="#timetable">Raspored</a></li>
@@ -702,7 +718,7 @@
             <h4>Kontakt</h4>
             <div class="widget-content">
               <div class="address_box"> <i class="fa fa-phone"></i>
-                <p>123-1234-123</p>
+                <p>+382 67/537-457</p>
               </div>
               <div class="address_box"> <i class="fa fa-envelope"></i>
                 <p>powerhousefitness.info@gmail.com
