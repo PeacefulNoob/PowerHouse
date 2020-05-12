@@ -41,7 +41,7 @@
       <div class="header-top">
         <div class="container clearfix">
           <div class="top-left pull-left clearfix">
-            <div class="phone pull-left"><a href="#"><i class="fa fa-phone"></i>+382 67/537-457</a></div>
+            <div class="phone pull-left"><a href="#"><i class="fa fa-phone"></i>+382 67 537 457</a></div>
             <div class="email pull-left"><a href="mailto:powerhousefitness.info@gmail.com"><i class="fa fa-envelope-o"></i> powerhousefitness.info@gmail.com </a></div>
           </div>
           <div class="top-right pull-right clearfix">
@@ -234,9 +234,16 @@
         </div>
       </div>
     </div>
-    @include('messages')
 
     <!-- Modalni end -->
+
+    <!--     message -->
+    @if(Session::has('success'))
+    <div class="alert alert-success" style="margin-top:8%">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <strong> {{ Session::get('conactmsg', '') }}</strong>
+    </div>
+    @endif
     <!-- Crousel start -->
     <section class="main-slider slide-wrapper" id="home">
       <div class="carousel slide">
@@ -249,7 +256,7 @@
               <div class="col-md-7 iner_info">
                 <h2 class="wow ">Power House fitness</h2>
                 <h3 class="wow ">Everyday's champions!</h3>
-                <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span></span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                <a href="#contact" class="slider_readmore wow fadeInUp animated titlep_animate"><span style="letter-spacing: 2px;">Prijavite se</span> <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
               </div>
             </div>
           </div>
@@ -322,8 +329,8 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 home_about">
             <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 aimg_sec">
-                <div class="row"> <img src="/images/home_a.png" alt=""> </div>
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 aimg_sec" id="aimg">
+                <div class="row"> <img src="/images/home_a.jpg" alt=""> </div>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ainfo_sec">
                 <div class="row">
@@ -410,8 +417,8 @@
     <section class="video_sec">
       <div class="container-fluid">
         <div class="row"> <a class="video-link" href="#" data-width="550" data-height="350"> <img src="/images/play.png" alt=""> </a>
-          <h2>Explore Fitness Complex </h2>
-          <h2 class="green_text"><a class="video-link" href="#" data-width="550" data-height="350"> Watch now</a></h2>
+          <h2>Powerhouse Fitness Centar </h2>
+          <h2 class="green_text"><a class="video-link" href="#" data-width="550" data-height="350"> Gledaj sada </a></h2>
         </div>
       </div>
     </section>
@@ -546,70 +553,92 @@
                     <p> JK </p>
                   </div>
                 </article>
-                <article class="Saturday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out  ">
+                <article class=" project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out  ">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 10:00-11:00 </span>
                     <h4> Pilates </h4>
 
                   </div>
                 </article>
-                <article class="Monday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+                <article class="Saturday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
-                    <span class="time"> 10:30-11:30 </span>
+                    <span class="time"> 10:00-11:00 </span>
                     <h4> Power Up </h4>
                     <p> JK </p>
                   </div>
                 </article>
-                <article class="  Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class="Monday Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/boxing-gloves.png" alt=""> <br>
+                    <span class="time"> 10:00-11:00 </span>
+                    <h4> Cardio Kingz </h4>
+                    <p> JT </p>
+                  </div>
+                </article>
+
+                <article class="   project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
                   <div class="text-content"> <img class="img-responsive" src="/images/icons/body.png" alt=""> <br>
                     <span class="time"> 10:30-11:30 </span>
                     <h4>Power Up </h4>
                     <p> VP </p>
                   </div>
                 </article>
-                <article class="Saturday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class="Saturday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 11:00-12:00 </span>
-                    <h4> Combat </h4>
+                    <h4> Body Combat </h4>
                     <p> VP </p>
                   </div>
                 </article>
-                <article class="Thursday Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class="  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
                   <div class="  text-content"> <img class="img-responsive" src="/images/icons/boxing-gloves.png" alt=""> <br>
                     <span class="time"> 12:00-13:00 </span>
                     <h4> Cardio Kingz </h4>
                     <p> JT </p>
                   </div>
                 </article>
-                <article class="Monday Wednesday Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+                <article class="Tuesday Thursday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                    <span class="time"> 18:00-19:00 </span>
+                    <h4> Power Up </h4>
+                    <p> JK </p>
+                  </div>
+                </article>
+                <article class="Monday Friday Wednesday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/yoga.png" alt=""> <br>
                     <span class="time"> 18:30-19:30 </span>
                     <h4> Boxing </h4>
                     <p> JT </p>
                   </div>
                 </article>
-                <article class="Thursday Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class="Thursday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/rope.png" alt=""> <br>
                     <span class="time"> 19:00-20:00 </span>
                     <h4> Body Combat </h4>
                     <p> JK </p>
                   </div>
                 </article>
-                <article class="Friday Monday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class=" Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/rope.png" alt=""> <br>
+                    <span class="time"> 19:00-20:00 </span>
+                    <h4> Body Combat </h4>
+                    <p> VP </p>
+                  </div>
+                </article>
+                <article class="  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 19:40-20:40 </span>
                     <h4> Power Up </h4>
                     <p> JK </p>
                   </div>
                 </article>
-                <article class="Wednesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
+                <article class="Wednesday Friday Monday project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out  ">
                   <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 19:40-20:40 </span>
                     <h4> Power Up </h4>
                     <p> VP </p>
                   </div>
                 </article>
-                <article class="Thursday Tuesday  project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out  ">
+                <article class="   project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out  ">
                   <div class=" text-content "> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 20:10-21:10 </span>
                     <h4>Pilates</h4>
@@ -644,27 +673,27 @@
           <div class="row">
             <div class="col-sm-12 col-xs-12 col-md-7 col-lg-7 no-padding cbg">
               <div class="left">
-                <h2>Kontakt</h2>
+                <h2>Prijavite se za naše grupne treninge</h2>
                 <form action="{{route('contact.store')}}" method="post" class="site-contact-form">
                   {{ csrf_field() }}
                   <div class="col-lg-10 col-sm-12">
                     <div class="row">
-                      <input type="text" name="name" placeholder="Vaše ime" required>
+                      <input type="text" name="name" placeholder="Unesite vaše ime i prezime" required>
                     </div>
                   </div>
                   <div class="col-lg-10 col-sm-12">
                     <div class="row">
-                      <input type="email" name="email" placeholder="E-mail" required>
+                      <input type="email" name="email" placeholder="Unesite vašu email adresu" required>
                     </div>
                   </div>
                   <div class="col-lg-10 col-sm-12">
                     <div class="row">
-                      <input type="text" name="phone" placeholder="Vaš broj telefona" required>
+                      <input type="text" name="phone" placeholder="Unesite vaš broj telefona" required>
                     </div>
                   </div>
                   <div class="col-lg-10 col-sm-12">
                     <div class="row">
-                      <textarea name="message" rows="3" placeholder="Vaša poruka" required></textarea>
+                      <textarea name="message" rows="3" placeholder="Polje u kom možete upisati dodatne informacije, postaviti pitanja" required></textarea>
                     </div>
                   </div>
                   <div class="clearfix"> </div>
@@ -718,7 +747,7 @@
             <h4>Kontakt</h4>
             <div class="widget-content">
               <div class="address_box"> <i class="fa fa-phone"></i>
-                <p>+382 67/537-457</p>
+                <p> +382 67 537 457</p>
               </div>
               <div class="address_box"> <i class="fa fa-envelope"></i>
                 <p>powerhousefitness.info@gmail.com

@@ -21,16 +21,17 @@ class MailSendController extends Controller
         ]);
         $data['content'] = $request->message;
         $data['phone'] = $request->phone;
+        $data['name'] = $request->name;
         $data['email'] = $request->email;
 
         Mail::send('emails.contact-message', $data, function ($message) use ($request) {
             $message->from($request->email, $request->name)
                 ->subject('PowerHouse Website');
-                $message->sender($request->email, $request->name);
+            $message->sender($request->email, $request->name);
 
             $message->to('powerhousefitness.info@gmail.com', 'PowerHouse ');
         });
 
-        return redirect()->back()->with('conactmsg', 'Uspesno ste poslali poruku! ');
+        return redirect()->back()->with('success', true)->with('conactmsg', 'Uspešno ste poslali prijavu! ');
     }
 }
