@@ -3,8 +3,9 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Free Web tutorials">
-  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="description" content="PowerHouse fitness">
+  <meta name="keywords" content="fitness,gym">
+  <meta name="author" content="QQRIQ PeacefulNoob">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta property="og:image" content="https://powerhousefitness.me/images/icons/Ikonica-za-browser.png" />
@@ -547,28 +548,28 @@
                   </div>
                 </article>
                 <article class="Tuesday Thursday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/box.png" alt=""> <br>
+                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/rope.png" alt=""> <br>
                     <span class="time"> 09:10-10:10 </span>
                     <h4> Conditioning </h4>
                     <p> JK </p>
                   </div>
                 </article>
                 <article class=" project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out  ">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/yoga.png" alt=""> <br>
                     <span class="time"> 10:00-11:00 </span>
                     <h4> Pilates </h4>
 
                   </div>
                 </article>
                 <article class="Saturday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 10:00-11:00 </span>
                     <h4> Power Up </h4>
                     <p> JK </p>
                   </div>
                 </article>
                 <article class="Monday Friday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/boxing-gloves.png" alt=""> <br>
+                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 10:00-11:00 </span>
                     <h4> Cardio Kingz </h4>
                     <p> JT </p>
@@ -576,63 +577,63 @@
                 </article>
 
                 <article class="   project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class="text-content"> <img class="img-responsive" src="/images/icons/body.png" alt=""> <br>
+                  <div class="text-content"> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 10:30-11:30 </span>
                     <h4>Power Up </h4>
                     <p> VP </p>
                   </div>
                 </article>
                 <article class="Saturday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/box.png" alt=""> <br>
                     <span class="time"> 11:00-12:00 </span>
                     <h4> Body Combat </h4>
                     <p> VP </p>
                   </div>
                 </article>
                 <article class="  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/boxing-gloves.png" alt=""> <br>
+                  <div class="  text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
                     <span class="time"> 12:00-13:00 </span>
                     <h4> Cardio Kingz </h4>
                     <p> JT </p>
                   </div>
                 </article>
                 <article class="Tuesday Thursday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 18:00-19:00 </span>
                     <h4> Power Up </h4>
                     <p> JK </p>
                   </div>
                 </article>
                 <article class="Monday Friday Wednesday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/yoga.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/boxing-gloves.png" alt=""> <br>
                     <span class="time"> 18:30-19:30 </span>
                     <h4> Boxing </h4>
                     <p> JT </p>
                   </div>
                 </article>
                 <article class="Thursday  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/rope.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/box.png" alt=""> <br>
                     <span class="time"> 19:00-20:00 </span>
                     <h4> Body Combat </h4>
                     <p> JK </p>
                   </div>
                 </article>
                 <article class=" Tuesday project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/rope.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/box.png" alt=""> <br>
                     <span class="time"> 19:00-20:00 </span>
                     <h4> Body Combat </h4>
                     <p> VP </p>
                   </div>
                 </article>
                 <article class="  project-box wow col-md-3 col-sm-4 col-xs-6 hvr-rectangle-out ">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 19:40-20:40 </span>
                     <h4> Power Up </h4>
                     <p> JK </p>
                   </div>
                 </article>
                 <article class="Wednesday Friday Monday project-box wow col-md-3 col-sm-3 col-xs-6 hvr-rectangle-out  ">
-                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/run.png" alt=""> <br>
+                  <div class=" text-content"> <img class="img-responsive" src="/images/icons/biceps.png" alt=""> <br>
                     <span class="time"> 19:40-20:40 </span>
                     <h4> Power Up </h4>
                     <p> VP </p>
